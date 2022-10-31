@@ -1,0 +1,8 @@
+self_employed,family_history,treatment,remote_work,tech_company,benefits,care_options,wellness_program,seek_help,leave,mental_health_consequence,phys_health_consequence
+NA,No,No,Rarely,No,Don't know,No,Don't know,Don't know,Don't know,Maybe,No
+Pregnancies,Glucose,BP,SkinThickness,Insulin,BMI,Diabetes,Age
+2,138,62,35,0,33.6,0.127,47
+Age,BMI,Smoker
+68,55,True
+mean smoothness,mean concavity,mean fractal dimension,concavity error
+0.11840,0.30010,0.07871,0.05373

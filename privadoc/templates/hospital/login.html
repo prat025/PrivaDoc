@@ -1,0 +1,17 @@
+{% extends 'hospital/base.html' %}
+{% block content %}
+<html>
+	<body>
+	<h1>Login</h1>
+	<form class="site-form" action="." method="post">
+		{% csrf_token %}
+		{{form}}
+		<input type="submit" value="Login">
+	</form>
+	<form action="/signup/">
+		<h3>New user? Sign up here</h3>
+        <input type="submit" value="Sign Up" />
+    </form>
+	</body>
+</html>
+{% endblock %}

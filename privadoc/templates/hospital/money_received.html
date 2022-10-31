@@ -1,0 +1,15 @@
+{% extends 'hospital/base.html' %}
+{% block content %}
+{% for a in h1 %}
+<table class="center">
+  <tr>
+    <th>Benefactor</th>
+    <th>Amount Received</th>
+  </tr>
+  <tr>
+   <th>{{a.transferred_by}}</th>
+  <th><div class="sent">${{a.amount2}}</div></th>
+  </tr>
+  </table>
+{% endfor %}
+{% endblock %}

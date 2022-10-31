@@ -1,0 +1,31 @@
+{% extends 'hospital/base.html' %}
+{% block content %}
+    <h1>Welcome, {{user}}!</h1>
+    <div class="add_balance">
+    <form action="/add_balance/">
+        <input type="submit" value="Insurance Prediction" />
+    </form>
+    </div>
+    <div class="transfer_money">
+    <form action="/money_sent/">
+        <input type="submit" value="Mental Heath Diagnosis" />
+    </form>
+    </div>
+    <div class="money_received">
+    <form action="/money_received">
+        <input type="submit" value="Diabetes Diagnosis" />
+    </form>
+    </div>
+    <div class="money_sent">
+    <form action="/machine_learning/">
+        <input type="submit" value="Breast Cancer" />
+    </form>
+    </div>
+    <div class="log_out">
+    <div class="log_out">
+    <form action="/log_out">
+        <input type="submit" value="Log Out" />
+    </form>
+    </div>
+{% endblock %}
+

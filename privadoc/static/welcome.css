@@ -1,0 +1,30 @@
+.add_balance{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+}
+.transfer_money{
+    position: absolute;
+    left: 450px;
+    top: 300px;
+
+}
+.money_received{
+    position: absolute;
+    left: 800px;
+    top: 300px;
+}
+.money_sent{
+    position: absolute;
+    right: 100px;
+    top: 300px;
+}
+.log_out{
+    position: absolute;
+    top: 0.55in;
+    right: 0.5cm;
+}
+h1{
+    font-family: copperplate;
+    background-color: whitesmoke;
+}

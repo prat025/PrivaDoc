@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(cash_in_hand.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px 800px;
+}
+.img-container {
+  text-align: center;
+  background-color: whitesmoke;
+  height: 80px;
+}
+.logo {
+  object-fit: contain;
+  max-width:125%;
+  max-height:125%;
+}
+.title {
+  text-align: center;
+  background-color: turquoise;
+}
+.block {
+  text-align: center;
+}
+.something{
+  text-align:right;
+}
+.sent{
+  color: red;
+}
+.title-container{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+

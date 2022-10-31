@@ -1,0 +1,4 @@
+Django~=3.2.10
+numpy~=1.21.4
+keras~=2.7.0
+ipfsApi~=0.4.4

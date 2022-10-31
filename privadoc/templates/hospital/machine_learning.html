@@ -1,0 +1,13 @@
+{% extends 'hospital/base.html' %}
+{% block content %}
+<html>
+	<body>
+	<h2>Enter details</h2>
+	<form class="site-form" action="/machine_learning/" method="post">
+		{% csrf_token %}
+		{{form}}
+		<input type="submit" value="Submit">
+	</form>
+	</body>
+</html>
+{% endblock %}

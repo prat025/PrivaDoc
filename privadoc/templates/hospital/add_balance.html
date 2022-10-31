@@ -1,0 +1,13 @@
+{% extends 'hospital/base.html' %}
+{% block content %}
+<html>
+	<body>
+	<h1>Add Amount</h1>
+	<form class="site-form" action="/add_balance/" method="post">
+		{% csrf_token %}
+		{{form}}
+		<input type="submit" value="submit">
+	</form>
+	</body>
+</html>
+{% endblock %}
